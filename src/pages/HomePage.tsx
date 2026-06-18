@@ -42,7 +42,7 @@ export default function HomePage() {
       tag="About Tafakkur"
       title="Meet Esmael Ali"
       description="With a BS in Computer Science and deep expertise in systems analysis and IT operations, Esmael Ali bridges the gap between technical complexity and simple business growth."
-      imageSrc="http://img.b2bpic.net/free-photo/polygraph-testing-progress-girl-passes-lie-detector-office-asking-questions_146671-17226.jpg"
+      imageSrc="https://storage.googleapis.com/webild/users/user_3FIKUSP6IUF6tBtzEvQnPfoz1vV/uploaded-1781757562381-v9v4f3wy.png"
     />
     </SectionErrorBoundary>
   </div>

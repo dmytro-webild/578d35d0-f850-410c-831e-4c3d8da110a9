@@ -13,9 +13,9 @@ export default function HomePage() {
   <div id="hero" data-section="hero">
     <SectionErrorBoundary name="hero">
           <HeroSplitMediaGrid
-      tag="Think. Build. Grow."
-      title="Digital Growth for Local Businesses Powered by AI"
-      description="Tafakkur Website Builder Agent transforms your local business with custom websites, SEO, and AI automation to generate more leads and increase revenue."
+      tag="Construction Growth Agency"
+      title="Digital Growth for Construction Companies Powered by AI"
+      description="Tafakkur Website Builder Agent transforms your construction business with custom websites, SEO, and AI automation to generate more high-value leads and increase revenue."
       primaryButton={{
         text: "Book Consultation",
         href: "#contact",
@@ -26,10 +26,10 @@ export default function HomePage() {
       }}
       items={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/business-progress-report-graph-concept_53876-15869.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3FIKUSP6IUF6tBtzEvQnPfoz1vV/uploaded-1781757562385-mkkvdd39.png",
         },
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/3d-render-robots-with-transmission-wheels_1048-5630.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3FIKUSP6IUF6tBtzEvQnPfoz1vV/uploaded-1781757562386-ef59o4da.png",
         },
       ]}
     />

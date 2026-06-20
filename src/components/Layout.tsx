@@ -42,7 +42,15 @@ export default function Layout() {
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
         <NavbarDropdown
-      logo="Tafakkur"
+      logo={
+        <div className="flex items-center gap-2">
+          <svg width="24" height="24" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg" className="text-[#15479c]">
+            <path d="M4 8H28V12H18V28H14V12H4V8Z" fill="currentColor" />
+            <path d="M16 14L22 24H10L16 14Z" fill="#d4af37" />
+          </svg>
+          <span>Tafkora Digital</span>
+        </div>
+      }
       ctaButton={{
         text: "Book Consultation",
         href: "#contact",
@@ -56,7 +64,7 @@ export default function Layout() {
         <FooterBasic
       columns={[
         {
-          title: "Tafakkur",
+          title: "Tafkora Digital",
           items: [
             {
               label: "About",
@@ -82,7 +90,7 @@ export default function Layout() {
           ],
         },
       ]}
-      leftText="© 2024 Tafakkur Agent. Built for Growth."
+      leftText="© 2024 Tafkora Digital. Built for Growth."
       rightText="esmaelali699@gmail.com"
     />
       </SectionErrorBoundary>

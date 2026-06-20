@@ -5,7 +5,7 @@ import { cls } from "@/lib/utils";
 import Button from "@/components/ui/Button";
 
 interface NavbarDropdownProps {
-  logo: string;
+  logo: string | React.ReactNode;
   navItems: { name: string; href: string }[];
   ctaButton: { text: string; href: string };
 }

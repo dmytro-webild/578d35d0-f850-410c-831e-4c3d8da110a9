@@ -40,7 +40,7 @@ const HeroInline = () => {
         <div className="w-full md:w-1/2">
           <div className="flex flex-col items-center md:items-start gap-3">
             <div className="px-3 py-1 mb-1 text-sm card rounded w-fit">
-              <p>{"Construction Growth Agency"}</p>
+              <p>{"Thoughtful Websites. Measurable Growth."}</p>
             </div>
 
             <TextAnimation
@@ -52,7 +52,7 @@ const HeroInline = () => {
             />
 
             <TextAnimation
-              text={"Tafakkur Website Builder Agent transforms your construction business with custom websites, SEO, and AI automation to generate more high-value leads and increase revenue."}
+              text={"Tafkora Digital transforms your construction business with custom websites, SEO, and AI automation to generate more high-value leads and increase revenue."}
               variant="slide-up"
               gradientText={false}
               tag="p"

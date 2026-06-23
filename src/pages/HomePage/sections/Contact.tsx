@@ -13,12 +13,12 @@ export default function ContactSection(): React.JSX.Element {
           tag="Get Started"
           text="Ready to scale your business? Let's talk strategy."
           primaryButton={{
-            text: "Contact Esmael Now",
-            href: "mailto:esmaelali699@gmail.com",
+            text: "Message on WhatsApp",
+            href: "https://wa.me/17206284541",
           }}
           secondaryButton={{
-            text: "View Case Studies",
-            href: "#",
+            text: "Connect on LinkedIn",
+            href: "https://www.linkedin.com/in/esmael-a-a537bb18b",
           }}
         />
         </SectionErrorBoundary>
